@@ -43,6 +43,10 @@ from processamento import (
     salvar_imagem_pillow
 ) # arquivo com as funções de processamento criadas
 
+from processamento_b import (
+    processamento_all_in_one
+) # arquivo com as funções de processamento criadas
+
 #Funcionamento da GUI do programa:
 class Worker(QThread):
     finished = Signal(str, bool)  # Caminho da imagem + resultado
